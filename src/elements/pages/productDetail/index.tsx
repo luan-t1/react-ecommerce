@@ -3,7 +3,7 @@ import Footer from "../../components/footer";
 import RelatedProducts from "../../components/relatedProducts";
 import PageGuider from "../../components/pageGuider";
 import Description from "../../components/description";
-import BuyProduct from "../../components/buyProduct";
+import BuyProduct from "../../components/buyProducts";
 import Header from "../../components/header";
 import { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom';

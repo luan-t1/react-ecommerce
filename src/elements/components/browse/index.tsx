@@ -1,5 +1,5 @@
 import "./style.css";
-import GenericCard from "../../fragments/GenericCard";
+import GenericCard from "../../fragments/genericCard";
 import Foto1 from './assets/Foto1.png';
 import Foto2 from './assets/Foto2.png';
 import Foto3 from './assets/Foto3.png';

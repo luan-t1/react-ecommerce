@@ -4,7 +4,7 @@ import Header from "../../components/header";
 import Banner from "../../components/banner";
 import Filter from "../../components/filter";
 import Benefits from "../../components/benefits";
-import ShopProducts from "../../components/shop-products";
+import ShopProducts from "../../components/shopProducts";
 import { useState } from "react";
 
 export default function Shop() {

@@ -1,6 +1,6 @@
 import "./style.css";
-import RightFilter from "../../fragments/rightFilter";
-import LeftFilter from "../../fragments/leftFilter";
+import FilterRight from "../../fragments/filterRight";
+import FilterLeft from "../../fragments/filterLeft";
 import { useState } from "react";
 
 interface FilterProps {
@@ -27,8 +27,8 @@ const Filter: React.FC<FilterProps> = ({ shortByReceiverShop, filterFunctionShop
     return(
         <div>
             <div id="filter">
-                <LeftFilter filterFunction={filterFunction}/>
-                <RightFilter shortByReceiver={shortByReceiver}/>
+                <FilterLeft filterFunction={filterFunction}/>
+                <FilterRight shortByReceiver={shortByReceiver}/>
             </div>
         </div>
     );

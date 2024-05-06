@@ -1,15 +1,15 @@
 import "./style.css";
-import Logo from "../../fragments/logo";
-import CenterHeader from "../../fragments/centerHeader";
-import EndHeader from "../../fragments/endHeader";
+import HeaderStart from "../../fragments/headerStart";
+import HeaderCenter from "../../fragments/headerCenter";
+import HeaderEnd from "../../fragments/headerEnd";
 
 export default function Header() {
     return(
         <div>
             <div id="header">
-                <Logo/>
-                <CenterHeader/>
-                <EndHeader/>
+                <HeaderStart/>
+                <HeaderCenter/>
+                <HeaderEnd/>
             </div>
         </div>
     );
